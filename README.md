@@ -11,9 +11,9 @@ spark-3.3.2-bin-hadoop3.tgz
 # delta table
 packages io.delta:delta-core_2.12:2.0.0 
 
-#==========================================================================================
+#======================================================
 # Project Files tree
-#==========================================================================================
+#======================================================
 - Dat500_Group09
     - baseline:
         # contains 5 files, we worked in jupyter note book files first then preapre the arixv_classifying_baseline.py 
@@ -36,9 +36,9 @@ packages io.delta:delta-core_2.12:2.0.0
     - arxiv_preprocessing.py
     - arxiv_classifying.py
 
-#==========================================================================================
+#======================================================
 # How to Run Files in our project
-#==========================================================================================
+#======================================================
 Firstly, execute the map_reduce file to convert the json file to csv format and store the output in the (/output_meta/*parts) directory.
 
 # Copy this command and run it in the terminal.
@@ -73,11 +73,11 @@ Finally, run the arxiv_classifying.py file to apply a machine learning model and
 # ================================================
 
 
-#==========================================================================================
+#======================================================
 # Our project contains the following files located in HDFS in a Dat500_group09 directory.
 # Some files are the data file like json other are the csv file that we generated in mapreduce
 # finally the delta files that we generated in our project.
-#==========================================================================================
+#======================================================
 
 - hdfs:///Dat500_group09
     - /input
